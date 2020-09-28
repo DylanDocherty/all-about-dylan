@@ -1,0 +1,12 @@
+.navigation-bar{
+    width: 100vw;
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navigation-bar-link{
+    width: 25%;
+    height: 100%;
+}
