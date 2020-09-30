@@ -1,11 +1,36 @@
 .App {
   text-align: center;
+  /* background-color: #44a7fb; */
+  /* background-image: url("./resources/destinyVaporWaveBackGround.jpg"); */
+  /* background-color: azure; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#main-content{
+  width: 80vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+#false-background{
+  background-image: url("./resources/destinyVaporWaveBackGround.jpg");
+  position: fixed;
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -14,7 +39,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #44a7fb; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;

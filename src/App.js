@@ -1,26 +1,33 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import './components/navigation-bar/navigation-bar.component'
 import { NavigationBar } from './components/navigation-bar/navigation-bar.component';
+import { Content } from './components/content/content.component';
+
 function App() {
   return (
     <div className="App">
-      <NavigationBar props={["google.com","bungie.net"]}/>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <header className="App-header">
+      </header> */}
+      {/* <div id="false-background"/> */}
+      <NavigationBar props={["about-me", "my-work","bungie.net"]}/>
+      <div id="main-content">
+
+      <Content id="about-me" picture="destinyVaporWaveBackGround" 
+      header="Who is Dylan Docherty?"
+      text="
+      Hello my name is Dylan Docherty.  I am 22 years old.  
+      I have a degree in Computer Science from the univeristy of windsor.
+      I enjoy funk rock, video games and coding in my free time.
+      "/> 
+      <Content picture="groupSelfie" text="
+      Hello my name is Dylan Docherty.  I am 22 years old.  
+      I have a degree in Computer Science from the univeristy of windsor.
+      I enjoy funk rock, video games and coding in my free time.
+      "/> 
+      
+      
+      </div>
     </div>
   );
 }

@@ -1,0 +1,55 @@
+.content-box{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: white;
+
+    width: 100%;
+    height: 50vh;
+    padding-top: 4vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.body-content{
+    outline: azure;
+    color: black;
+    width: 100%;
+    height: 90%;
+    justify-self: end;
+    display: flex;
+    flex-direction: row;
+}
+.body-text{
+    outline: azure;
+    color: black;
+    width: 70%;
+    height: 90%;
+    /* justify-self: end; */
+    /* display: flex;
+    flex-direction: row; */
+}
+
+
+.header-text{
+    
+    color: #44a7fb;
+    width: 100%;
+    height: 10%;
+    align-self: start;
+    display: flex;
+    flex-direction: row;
+}
+
+.picture{
+    width: 30%;
+    height: 100%;
+}
+
+#destinyVaporWaveBackGround{
+    background-image: url("../../resources/destinyVaporWaveBackGround.jpg");
+}
+
+#groupSelfie{
+    background-image: url("../../resources/selfie.png");
+    background-size: 50%;
+}
