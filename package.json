@@ -16,7 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "copy-to-www": "sudo cp -avr build/ /var/www/html"
+    "delete-html-contents": "sudo rm -r  /var/www/html/*",
+    "copy-to-www": "delete-html-contents && sudo cp -avr build/ /var/www/html"
   },
   "eslintConfig": {
     "extends": "react-app"
