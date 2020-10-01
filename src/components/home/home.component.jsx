@@ -1,5 +1,5 @@
 import React from 'react';
-import { Content } from './components/content/content.component.jsx';
+import { Content } from '../content/content.component.jsx';
 
 
 
