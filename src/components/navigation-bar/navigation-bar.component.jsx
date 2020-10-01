@@ -14,6 +14,8 @@ export const NavigationBar = ({ props, handleChange }) => (
 
                 <li className="navigation-bar-link">
                     <Link to="/">About Me</Link>
+                </li>
+                <li className="navigation-bar-link">
                     <Link to="/my-work">My Work</Link>
                 </li>
 
