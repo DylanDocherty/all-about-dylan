@@ -17,10 +17,7 @@ export const MyWork = ({props, handleChange}) => (
     I have also designed some other websites:
     "/> 
     
-    <iframe width="420" height="315"
-      src="https://youtu.be/embed/V363XHUA-lA">
-    </iframe>
-
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/V363XHUA-lA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
     </div>
   </div>
