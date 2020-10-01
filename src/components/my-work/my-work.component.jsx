@@ -4,7 +4,6 @@ import { Content } from '../content/content.component';
 import "../my-work/my-work.style.css"
 
 export const MyWork = ({props, handleChange}) => (
-    <div>
         
     <div id="main-content">
 
@@ -13,22 +12,68 @@ export const MyWork = ({props, handleChange}) => (
     text="
     I have worked in a factory for 2 months called FlexxingGate.
     I have also worked on 3 video game projects. 
-    Shown in the videos below.
-    I have also designed some other websites:
+    Shown in the videos below(Audio warning some are loud).
+    I have also designed some other websites.
     "/> 
+
     <a href="https://sites.google.com/site/dylandochertygr12/">My grade 12 website, a google site from 2016.  This website links to website from grade 11 and 10.</a>
+    <a href="http://uwindsor.icampus21.com/wordpress/ddocherty/about-me/">A wordpress website I made during my second year of computer science.</a>
+    
+
+    <div id="chequeChain">
+
+    </div>
 
     <div className="videos">
       <div className="videos-row">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/V363XHUA-lA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/EIj8nA8f9b8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
+        <iframe width="960" height="540" src="https://www.youtube.com/embed/Ff8LSRZVNF4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
+        <div className="row-text">
+            This is the first game I worked on while I was at Taplane.
+              I was tasked with building Copter Cove, one of taplanes android/ios mobile games,
+            in Typescript using Babylonjs as the 3d engine, and then integrate it with Facebook games.
+            Through this project I learned a lot about building games and Babylonjs.
+            I build 2 custom modules for Babylonjs to better match the origonal game.
+            A circle styled button with matching click detection.  
+            As well as a progress ring that slowly dissapears.
+            I also talked with some of the creators of Babylonjs 
+            and got the game featured in the communtiy hub of the <a href="https://www.babylonjs.com/community/">official Babylonjs website</a>
+
+        </div>
       </div>
       <div className="videos-row">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Pz0_LV9Nl2w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/FYBOPJRF7YQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
+        <iframe width="960" height="540" src="https://www.youtube.com/embed/V363XHUA-lA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
+        <div className="row-text">
+          This was my final summitive project in 2nd year University.
+            I designed a menu for all of the mini games I had created over the semester.
+          My favourite of the mini games was the space shooter(3:20).
+        </div>
       </div>
+      <div className="videos-row">
+        <iframe width="960" height="540" src="https://www.youtube.com/embed/EIj8nA8f9b8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
+        <div className="row-text">
+          With this game my team and I tried our hand at recreating a popular game at the time.
+          With changing terain, objacles, and coins to collect, it was my best game yet.
+        </div>
+      </div>
+      <div className="videos-row">
+        <iframe width="960" height="540" src="https://www.youtube.com/embed/Pz0_LV9Nl2w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
+        <div className="row-text">
+          This is the second game I helped create, built during my time in grade 11.  Using python and pygame my team
+          and I created a top down mario zombie survival game.  With easter eggs and
+          two different skins it was leagues ahead of my previous game.  
+        </div>
+      </div>
+      <div className="videos-row">
+        <iframe width="960" height="540" src="https://www.youtube.com/embed/FYBOPJRF7YQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
+        <div className="row-text">
+          This was the first game I ever created.  In grade 10 I took computer programming, it changed my life forever.  
+            Fascinated with writing code(or in this case drag and drop coding), I built my first ever game with the help of one of my best friends. 
+        </div>
+        
+      </div>
+
+      
     </div>
     
     </div>
-  </div>
 );

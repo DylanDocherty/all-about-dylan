@@ -1,4 +1,6 @@
-
+#chequeChain{
+    background-image: url("/resources/chequeChainScreenShot.png");
+}
 
 .videos{
     display: flex;
@@ -7,5 +9,14 @@
 
 .videos-row{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin-top: 5vh;
+    align-items: center;
+}
+
+.row-text{
+    color:  black;
+    box-shadow: 1vh 1vh rgb(38, 136, 136);
+    border-bottom: 1vh inset black;
+    border-right: 1vh inset black;
 }
