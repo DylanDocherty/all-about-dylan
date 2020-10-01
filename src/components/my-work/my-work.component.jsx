@@ -18,7 +18,7 @@ export const MyWork = ({props, handleChange}) => (
     "/> 
     
     <iframe width="420" height="315"
-      src="https://youtu.be/V363XHUA-lA">
+      src="https://youtu.be/embed/V363XHUA-lA">
     </iframe>
 
     
