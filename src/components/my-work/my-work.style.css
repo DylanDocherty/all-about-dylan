@@ -1,0 +1,11 @@
+
+
+.videos{
+    display: flex;
+    flex-direction: column;
+}
+
+.videos-row{
+    display: flex;
+    flex-direction: row;
+}
