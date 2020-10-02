@@ -18,7 +18,7 @@ export const MyWork = ({props, handleChange}) => (
     Lastly, As I like learning new technologies I built some custom faces for a smart watch in high school.
     "/> 
 
-    <a href="https://sites.google.com/site/dylandochertygr12/">My grade 12 website, a google site from 2016.  This website links to website from grade 11 and 10.</a>
+    <a href="https://sites.google.com/site/dylandochertygr12/">My grade 12 website, a google site from 2016.  This website links to websites from grade 11 and 10.</a>
     <a href="http://uwindsor.icampus21.com/wordpress/ddocherty/about-me/">A wordpress website I made during my second year of computer science.</a>
     
 
@@ -36,17 +36,17 @@ export const MyWork = ({props, handleChange}) => (
             Through this project I learned a lot about building games and Babylonjs.
             I built 2 custom modules for Babylonjs and 4 shaders to better match the original game.
             A circle styled button with matching click detection.  
-            As well as a progress ring that slowly dissapears.
+            As well as a progress ring that slowly disappears.
             The shaders mocked light so that we needed less real light sources and would match the original game better.
             I also talked with some of the creators of Babylonjs 
-            and got the game featured in the communtiy hub of the <a href="https://www.babylonjs.com/community/">official Babylonjs website</a>
+            and got the game featured in the community  hub of the <a href="https://www.babylonjs.com/community/">official Babylonjs website</a>
 
         </div>
       </div>
       <div className="videos-row">
         <iframe title="Mini Games" width="960" height="540" src="https://www.youtube.com/embed/V363XHUA-lA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
         <div className="row-text">
-          This was my final summitive project in 2nd year University.
+          This was my final summative project in 2nd year University.
             I designed a menu for all of the mini games I had created over the semester.
           My favourite of the mini games was the space shooter(3:20).
         </div>
@@ -55,7 +55,7 @@ export const MyWork = ({props, handleChange}) => (
         <iframe title="Flappy Bird" width="960" height="540" src="https://www.youtube.com/embed/EIj8nA8f9b8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
         <div className="row-text">
           With this game my team and I tried our hand at recreating a popular game at the time.
-          With changing terain, objacles, and coins to collect, it was my best game yet.
+          With changing terrain, objacles, and coins to collect, it was my best game yet.
         </div>
       </div>
       <div className="videos-row">

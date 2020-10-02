@@ -2,13 +2,14 @@ import React from 'react';
 
 import "../content/content.style.css";
 
-export const Content = ({picture, header, text, handleChange}) => (
+export const Content = ({picture, pictureText, pictureStyle, header, text, handleChange}) => (
     <div className="content-box">
         <h2 className="header-text">{header}</h2>
         
             {(typeof picture)==="string" &&
                 <div className="body-content">
-                    <div className="picture" id={picture}/>
+                    {/* <div className="picture" id={picture}/> */}
+                    <img src={picture} alt={pictureText} id={pictureStyle}/>
                     <div className="body-text">    
                         {text}
                     </div>         

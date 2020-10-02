@@ -56,12 +56,7 @@
 }
 
 #profilePicture{
-    background-image: url("../../resources/Oct2020.jpg");
     border-radius: 10vw;
-
-}
-
-#groupSelfie{
-    background-image: url("../../resources/selfie.png");
-    background-size: 50%;
+    width: 35%;
+    height: 100%;
 }
