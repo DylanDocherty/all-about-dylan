@@ -9,13 +9,14 @@ export const Home=({props, handleChange})=>{
         
         <div id="main-content">
   
-        <Content id="about-me" picture="destinyVaporWaveBackGround" 
+        <Content id="about-me" picture="profilePicture" 
         header="Who is Dylan Docherty?"
         text="
         I am a 22 year old computer scientist and all around tech enthusiast.  
-        I have a degree in Computer Science from the Univeristy of Windsor.  
+        I have a 4 year degree in Computer Science from the Univeristy of Windsor.  
         I enjoy learning new technologies and exploring things I don't understand.  
-        When I code I strive to write efficient, maintainable and readable code.  
+        When I code I strive to write efficient, maintainable and readable code.
+        I love solving puzzles.
         "/>   
         </div>
       </div>

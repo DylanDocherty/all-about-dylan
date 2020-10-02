@@ -7,13 +7,13 @@ export const MyWork = ({props, handleChange}) => (
         
     <div id="main-content">
 
-    <Content id="my-work" picture="" 
+    <Content id="my-work" 
     header="What work have I done?"
     text="
     I have worked as an App developer/Web Developer at Taplane for two years.  During my time there
     I learned a lot about working with other, how to ask for help, the agile 
     process, and general rules of development in a team.
-    I have also worked on 7 video game projects throughout school. shown in the videos below are some of those games(Audio warning some are loud).
+    I have also worked on 7 video game projects throughout school. Shown in the videos below are some of those games(Audio warning some are loud).
     I have also designed some other websites, they link to my previous websites all the way back to 2015.
     Lastly, As I like learning new technologies I built some custom faces for a smart watch in high school.
     "/> 
@@ -34,9 +34,10 @@ export const MyWork = ({props, handleChange}) => (
               I was tasked with building Copter Cove, one of taplanes android/ios mobile games,
             in Typescript using Babylonjs as the 3d engine, and then integrate it with Facebook games.
             Through this project I learned a lot about building games and Babylonjs.
-            I build 2 custom modules for Babylonjs to better match the origonal game.
+            I built 2 custom modules for Babylonjs and 4 shaders to better match the original game.
             A circle styled button with matching click detection.  
             As well as a progress ring that slowly dissapears.
+            The shaders mocked light so that we needed less real light sources and would match the original game better.
             I also talked with some of the creators of Babylonjs 
             and got the game featured in the communtiy hub of the <a href="https://www.babylonjs.com/community/">official Babylonjs website</a>
 
