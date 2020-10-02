@@ -10,10 +10,12 @@ export const MyWork = ({props, handleChange}) => (
     <Content id="my-work" picture="" 
     header="What work have I done?"
     text="
-    I have worked in a factory for 2 months called FlexxingGate.
-    I have also worked on 3 video game projects. 
-    Shown in the videos below(Audio warning some are loud).
-    I have also designed some other websites.
+    I have worked as an App developer/Web Developer at Taplane for two years.  During my time there
+    I learned a lot about working with other, how to ask for help, the agile 
+    process, and general rules of development in a team.
+    I have also worked on 7 video game projects throughout school. shown in the videos below are some of those games(Audio warning some are loud).
+    I have also designed some other websites, they link to my previous websites all the way back to 2015.
+    Lastly, As I like learning new technologies I built some custom faces for a smart watch in high school.
     "/> 
 
     <a href="https://sites.google.com/site/dylandochertygr12/">My grade 12 website, a google site from 2016.  This website links to website from grade 11 and 10.</a>
