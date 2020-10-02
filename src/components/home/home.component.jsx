@@ -12,11 +12,11 @@ export const Home=({props, handleChange})=>{
         <Content id="about-me" picture="destinyVaporWaveBackGround" 
         header="Who is Dylan Docherty?"
         text="
-        I am a 22 computer scientist and all around tech enthusiast.  
+        I am a 22 year old computer scientist and all around tech enthusiast.  
         I have a degree in Computer Science from the Univeristy of Windsor.  
-        I enjoy learning new technologies and exploring things I don't understand.
-        "/>     
+        I enjoy learning new technologies and exploring things I don't understand.  
+        When I code I strive to write efficient, maintainable and readable code.  
+        "/>   
         </div>
       </div>
-    )
-  }
+    )}

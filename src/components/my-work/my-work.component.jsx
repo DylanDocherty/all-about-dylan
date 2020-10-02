@@ -28,7 +28,7 @@ export const MyWork = ({props, handleChange}) => (
 
     <div className="videos">
       <div className="videos-row">
-        <iframe width="960" height="540" src="https://www.youtube.com/embed/Ff8LSRZVNF4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
+        <iframe title="Copter Cove" width="960" height="540" src="https://www.youtube.com/embed/Ff8LSRZVNF4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
         <div className="row-text">
             This is the first game I worked on while I was at Taplane.
               I was tasked with building Copter Cove, one of taplanes android/ios mobile games,
@@ -43,7 +43,7 @@ export const MyWork = ({props, handleChange}) => (
         </div>
       </div>
       <div className="videos-row">
-        <iframe width="960" height="540" src="https://www.youtube.com/embed/V363XHUA-lA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
+        <iframe title="Mini Games" width="960" height="540" src="https://www.youtube.com/embed/V363XHUA-lA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
         <div className="row-text">
           This was my final summitive project in 2nd year University.
             I designed a menu for all of the mini games I had created over the semester.
@@ -51,14 +51,14 @@ export const MyWork = ({props, handleChange}) => (
         </div>
       </div>
       <div className="videos-row">
-        <iframe width="960" height="540" src="https://www.youtube.com/embed/EIj8nA8f9b8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
+        <iframe title="Flappy Bird" width="960" height="540" src="https://www.youtube.com/embed/EIj8nA8f9b8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
         <div className="row-text">
           With this game my team and I tried our hand at recreating a popular game at the time.
           With changing terain, objacles, and coins to collect, it was my best game yet.
         </div>
       </div>
       <div className="videos-row">
-        <iframe width="960" height="540" src="https://www.youtube.com/embed/Pz0_LV9Nl2w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
+        <iframe title="The Walking Goomba" width="960" height="540" src="https://www.youtube.com/embed/Pz0_LV9Nl2w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
         <div className="row-text">
           This is the second game I helped create, built during my time in grade 11.  Using python and pygame my team
           and I created a top down mario zombie survival game.  With easter eggs and
@@ -66,7 +66,7 @@ export const MyWork = ({props, handleChange}) => (
         </div>
       </div>
       <div className="videos-row">
-        <iframe width="960" height="540" src="https://www.youtube.com/embed/FYBOPJRF7YQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
+        <iframe title="Mardadon Hunt" width="960" height="540" src="https://www.youtube.com/embed/FYBOPJRF7YQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
         <div className="row-text">
           This was the first game I ever created.  In grade 10 I took computer programming, it changed my life forever.  
             Fascinated with writing code(or in this case drag and drop coding), I built my first ever game with the help of one of my best friends. 
