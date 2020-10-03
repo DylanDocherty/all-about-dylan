@@ -1,18 +1,18 @@
 .content-box{
-    background-color: rgba(255, 255, 255, 0.2);
-    border-color: white;
+    background-color: rgba(0, 0, 0, 1);
 
     width: 100%;
     height: 50vh;
-    padding-top: 4vh;
+    padding-top: 5vh;
 
     display: flex;
     flex-direction: column;
+
 }
 
 .body-content{
-    outline: azure;
-    color: black;
+    /* outline: azure; */
+    background-color: black;
     width: 100%;
     height: 90%;
     justify-self: end;
@@ -21,7 +21,7 @@
 }
 .body-text{
     outline: azure;
-    color: black;
+    color: azure;
     width: 70%;
     height: 90%;
     /* justify-self: end; */
@@ -31,7 +31,7 @@
 
 .body-text-100{
     outline: azure;
-    color: black;
+
     width: 100%;
     height: 90%;
     /* justify-self: end; */
@@ -42,7 +42,6 @@
 
 .header-text{
     
-    color: #44a7fb;
     width: 100%;
     height: 10%;
     align-self: start;
