@@ -1,7 +1,7 @@
 .content-box{
     background-color: rgba(0, 0, 0, 1);
 
-    width: 100%;
+    width: 80vw;
     height: 50vh;
     padding-top: 5vh;
 
@@ -13,8 +13,8 @@
 .body-content{
     /* outline: azure; */
     background-color: black;
-    width: 100%;
-    height: 90%;
+    width: 80vw;
+    height: 95vh;
     justify-self: end;
     display: flex;
     flex-direction: row;
@@ -22,8 +22,8 @@
 .body-text{
     outline: azure;
     color: azure;
-    width: 70%;
-    height: 90%;
+    width: 50vw;
+    height: 40vh;
     /* justify-self: end; */
     /* display: flex;
     flex-direction: row; */
@@ -32,8 +32,8 @@
 .body-text-100{
     outline: azure;
 
-    width: 100%;
-    height: 90%;
+    width: 80vw;
+    height: 40vh;
     /* justify-self: end; */
     /* display: flex;
     flex-direction: row; */
@@ -42,20 +42,21 @@
 
 .header-text{
     
-    width: 100%;
-    height: 10%;
+    width: 80vw;
+    height: 10vh;
     align-self: start;
     display: flex;
     flex-direction: row;
+    margin: 0;
 }
 
 .picture{
-    width: 30%;
-    height: 100%;
+    width: 30vw;
+    height: 40vh;
 }
 
 #profilePicture{
     border-radius: 10vw;
-    width: 35%;
-    height: 100%;
+    width: 40vh;
+    height: 40vh;
 }
