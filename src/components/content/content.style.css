@@ -14,7 +14,7 @@
     /* outline: azure; */
     background-color: black;
     width: 80vw;
-    height: 95vh;
+    height: 50vh;
     justify-self: end;
     display: flex;
     flex-direction: row;
@@ -50,9 +50,10 @@
     margin: 0;
 }
 
-.picture{
+#picture{
     width: 30vw;
-    height: 40vh;
+    height: 30vh;
+    border-radius: 5vh;
 }
 
 #profilePicture{

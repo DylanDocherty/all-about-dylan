@@ -10,16 +10,16 @@ import { MyWork } from '../my-work/my-work.component';
 export const NavigationBar = ({ props, handleChange }) => (
     <Router>
         <div className="navigation-bar">
-            <ul className="navigation-list">
-
-                <li className="navigation-bar-link">
                     <Link to="/">About Me</Link>
+                    <Link to="/my-work">My Work</Link>
+            {/* <ul className="navigation-list">
+
+                <li className="navigation-bar-link">
                 </li>
                 <li className="navigation-bar-link">
-                    <Link to="/my-work">My Work</Link>
                 </li>
 
-            </ul>
+            </ul> */}
         </div>
         <Switch>
             <Route exact path="/"><Home /></Route>

@@ -16,19 +16,19 @@ export const Home=({props, handleChange})=>{
         picturePos="left"
         header="Dylan Docherty"
         text="
-        I am a 22 year old computer scientist and all around tech enthusiast.  
-        I have a 4 year degree in Computer Science from the University of Windsor, with a 72% cumulative average.  
+        I am a computer scientist and all around tech enthusiast.  
+        I have a degree in Computer Science from the University of Windsor.  
         I enjoy learning new technologies and exploring things I don't understand.  
         When I code I strive to write efficient, maintainable and readable code.
         I love solving puzzles.
         "/>   
         <Content id="about-me"
-        picture=""
-        pictureText="A Photo Of Dylan"
-        pictureStyle="profilePicture"
+        picture="https://github.com/DylanDocherty/all-about-dylan/blob/master/src/resources/selfie.png?raw=true"
+        pictureText="My friends and I in Destiny 2"
+        pictureStyle="picture"
         picturePos="right"
-        header=""
-        text="During my free time I like to be with my friends, either playing video games or board games.  I like going for longboarding rides with my friends.
+        
+        text="During my free time I like to hangout with friends, play video games, board games, and fish.  Some of my favourite games include Outer Wilds, Destiny 2, Halo and Super Smash Bros.
         I also enjoy driving my car, and keeping it in mint condition."
         />
         </div>

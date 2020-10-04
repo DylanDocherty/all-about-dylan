@@ -4,7 +4,10 @@ import "../content/content.style.css";
 
 export const Content = ({picture, pictureText, pictureStyle, picturePos, header, text, handleChange}) => (
     <div className="content-box">
-        <h2 className="header-text">{header}</h2>
+        {(typeof header)==="string" &&
+            <h2 className="header-text">{header}</h2>
+        }
+        
         
             {(typeof picture)==="string" && picturePos === "left" &&
                 <div className="body-content">

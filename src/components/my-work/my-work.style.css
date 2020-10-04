@@ -19,3 +19,23 @@
     border-bottom: 1vh inset black;
     margin-bottom: 2vh;
 }
+
+#small-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#websites{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1vh 1vh green;
+}
+
+#github{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1vh 1vh green;
+}

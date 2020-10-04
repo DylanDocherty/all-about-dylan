@@ -10,16 +10,24 @@ export const MyWork = ({props, handleChange}) => (
     <Content id="my-work" 
     header="What work have I done?"
     text="
-    I have worked as an App developer/Web Developer at Taplane for two years.  During my time there
-    I learned a lot about working with other, how to ask for help, the agile 
+    I have worked as an App/Web Developer at Taplane for two years.  During my time there
+    I learned a lot about working with others, how to ask for help, the agile 
     process, and general rules of development in a team.
     I have also worked on 7 video game projects throughout school. Shown in the videos below are some of those games(Audio warning some are loud).
     I have also designed some other websites, they link to my previous websites all the way back to 2015.
-    Lastly, As I like learning new technologies I built some custom faces for a smart watch in high school.
+    Lastly, As I like learning new technologies I built some custom faces for a smart watch in 2015.
     "/> 
-
-    <a href="https://sites.google.com/site/dylandochertygr12/">My grade 12 website, a google site from 2016.  This website links to websites from grade 11 and 10.</a>
-    <a href="http://uwindsor.icampus21.com/wordpress/ddocherty/about-me/">A wordpress website I made during my second year of computer science.</a>
+    <div id="small-links">
+      <div id="websites">
+        Previous Websites:
+        <a href="http://uwindsor.icampus21.com/wordpress/ddocherty/about-me/">University Year 2</a>
+        <a href="https://sites.google.com/site/dylandochertygr12/">Grade 12</a>
+      </div>
+      <div id="github">
+        Github:
+        <a href="https://github.com/DylanDocherty">Dylan Docherty</a>
+      </div>
+    </div>
     
 
     <div id="chequeChain">
@@ -31,7 +39,7 @@ export const MyWork = ({props, handleChange}) => (
         <iframe title="Copter Cove" width="960" height="540" src="https://www.youtube.com/embed/Ff8LSRZVNF4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
         <div className="row-text">
             This is the first game I worked on while I was at Taplane.
-              I was tasked with building Copter Cove, one of taplanes android/ios mobile games,
+              I was tasked with building <a href="https://www.facebook.com/instantgames/play/2185388865115975/?context_type=SOLO&source=fb_gg_url">Copter Cove</a>, one of taplanes android/ios mobile games,
             in Typescript using Babylonjs as the 3d engine, and then integrate it with Facebook games.
             Through this project I learned a lot about building games and Babylonjs.
             I built 2 custom modules for Babylonjs and 4 shaders to better match the original game.
