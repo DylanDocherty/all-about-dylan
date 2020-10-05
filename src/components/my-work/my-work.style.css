@@ -1,5 +1,15 @@
 #chequeChain{
-    background-image: url("/resources/chequeChainScreenShot.png");
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    align-items: center;
+
+}
+
+#chequeChain img{
+    max-width: 100%;
+    max-height: 80vh;
+    display: block;
 }
 
 .videos{
@@ -15,7 +25,7 @@
 }
 
 .row-text{
-    box-shadow: 1vh 1vh green;
+    box-shadow: 0vh 1vh green;
     border-bottom: 1vh inset black;
     margin-bottom: 2vh;
 }
@@ -38,4 +48,24 @@
     display: flex;
     flex-direction: column;
     box-shadow: 1vh 1vh green;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /*16:9*/
+    padding-top: 30px; 
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+   
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }

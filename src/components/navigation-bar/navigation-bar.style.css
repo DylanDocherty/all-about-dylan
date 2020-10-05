@@ -25,15 +25,15 @@ a:link {
     color: azure;
 }
   
-  a:visited {
-    text-decoration: none;
-    color: green;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  a:active {
-    text-decoration: underline;
-  }
+a:visited {
+  text-decoration: none;
+  color: green;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
