@@ -64,13 +64,13 @@
 }
 
 #picture{
-    width: 30vw;
-    height: 30vh;
-    border-radius: 5vh;
+    border-radius: 5vmin;
+    width: 40vmin;
+    height: 30vmin;
 }
 
 #profilePicture{
-    border-radius: 20vh;
-    width: 40vh;
-    height: 40vh;
+    border-radius: 20vmin;
+    width: 40vmin;
+    height: 40vmin;
 }

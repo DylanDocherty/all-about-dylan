@@ -2,8 +2,13 @@
     height: 100vh;
     width: auto;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4{
+    width: 40vw;
+    height: 10vh;
 }
 
 #form-box{
@@ -16,7 +21,6 @@
     color: green;
     border-style: solid;
     padding: 1vh 1vh 1vh 1vh;
-    margin: 10vh;
 
 }
 #comment-section{
