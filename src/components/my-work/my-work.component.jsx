@@ -33,6 +33,7 @@ export const MyWork = ({props, handleChange}) => (
     
 
     <div id="chequeChain">
+      <h2>Cheque Chain</h2>
       <img src="https://raw.githubusercontent.com/DylanDocherty/all-about-dylan/master/src/resources/chequeChainScreenShot.PNG" alt="A screenshot of our cheque chain website"/>
       <div className="row-text">
         This is a screenshot of my final research project from university.  
@@ -44,6 +45,7 @@ export const MyWork = ({props, handleChange}) => (
 
     <div className="videos">
       <div className="videos-row">
+        <h2>Copter Cove</h2>
         <div className="video-container">
           <iframe title="Copter Cove" src="https://www.youtube.com/embed/Ff8LSRZVNF4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
         </div>
@@ -66,6 +68,7 @@ export const MyWork = ({props, handleChange}) => (
         </div>
       </div>
       <div className="videos-row">
+        <h2>Unity Mini Games</h2>
         <div className="video-container">
           <iframe title="Mini Games" src="https://www.youtube.com/embed/V363XHUA-lA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
         </div>
@@ -76,6 +79,7 @@ export const MyWork = ({props, handleChange}) => (
         </div>
       </div>
       <div className="videos-row">
+        <h2>Flappy Bird</h2>
         <div className="video-container">
           <iframe title="Flappy Bird" src="https://www.youtube.com/embed/EIj8nA8f9b8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
         </div>
@@ -85,6 +89,7 @@ export const MyWork = ({props, handleChange}) => (
         </div>
       </div>
       <div className="videos-row">
+        <h2>The Walking Goomba</h2>
         <div className="video-container">
             <iframe title="The Walking Goomba" src="https://www.youtube.com/embed/Pz0_LV9Nl2w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
         </div>
@@ -95,8 +100,9 @@ export const MyWork = ({props, handleChange}) => (
         </div>
       </div>
       <div className="videos-row">
+        <h2>Mardardon Hunt</h2>
         <div className="video-container">
-          <iframe title="Mardadon Hunt" src="https://www.youtube.com/embed/FYBOPJRF7YQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
+          <iframe title="Mardardon Hunt" src="https://www.youtube.com/embed/FYBOPJRF7YQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" ></iframe>
         </div>
         <div className="row-text">
           This was the first game I ever created.  In grade 10 I took computer programming, it changed my life forever.  

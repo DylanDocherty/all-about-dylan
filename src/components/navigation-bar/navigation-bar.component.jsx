@@ -11,17 +11,9 @@ import { ContactMe } from '../contact-me/contact-me.component';
 export const NavigationBar = ({ props, handleChange }) => (
     <Router>
         <div className="navigation-bar">
-                    <Link to="/">About Me</Link>
-                    <Link to="/my-work">My Work</Link>
-                    <Link to="/contact-me">Contact Me</Link>
-            {/* <ul className="navigation-list">
-
-                <li className="navigation-bar-link">
-                </li>
-                <li className="navigation-bar-link">
-                </li>
-
-            </ul> */}
+            <Link to="/">About Me</Link>
+            <Link to="/my-work">My Work</Link>
+            <Link to="/contact-me">Contact Me</Link>
         </div>
         <Switch>
             <Route exact path="/"><Home /></Route>
