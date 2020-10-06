@@ -85,7 +85,7 @@ export const MyWork = ({props, handleChange}) => (
         </div>
         <div className="row-text">
           With this game my team and I tried our hand at recreating a past popular game.
-          With changing terrain, objacles, and coins to collect, it made a great experience.
+          With changing terrain, obstacles, and coins to collect, it made a great experience.
         </div>
       </div>
       <div className="videos-row">
