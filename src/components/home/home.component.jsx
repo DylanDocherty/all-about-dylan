@@ -30,7 +30,7 @@ export const Home=({props, handleChange})=>{
         picturePos="right"
         
         text="
-        During my free time I like to hangout with friends, play video games, board games, and go fishing.
+        During my free time I like to hangout with friends, play video games, board games, and go rock climbing.
           Some of my favourite video games include Outer Wilds, Destiny 2, Halo and Super Smash Bros. 
            I also love going for cruises in my car."
         />
