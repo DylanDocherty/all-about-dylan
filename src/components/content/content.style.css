@@ -23,6 +23,8 @@
     color: azure;
     width: 50vw;
     height: 40vh;
+    margin: auto;
+
     /* justify-self: end; */
     /* display: flex;
     flex-direction: row; */
@@ -30,7 +32,8 @@
 
 .body-text-100{
     outline: azure;
-
+    text-align: center;
+    margin: auto;
     width: 80vw;
     height: 40vh;
     /* justify-self: end; */
@@ -42,11 +45,22 @@
 .header-text{
     
     width: 80vw;
-    height: 10vh;
-    align-self: start;
+    height: 5vh;
+    
     display: flex;
     flex-direction: row;
     margin: 0;
+}
+.left{
+    justify-content: flex-start;
+}
+
+.right{
+    justify-content: flex-end;
+}
+
+.center{
+    justify-content: center;
 }
 
 #picture{
@@ -56,7 +70,7 @@
 }
 
 #profilePicture{
-    border-radius: 10vw;
+    border-radius: 20vh;
     width: 40vh;
     height: 40vh;
 }

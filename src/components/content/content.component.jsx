@@ -2,10 +2,10 @@ import React from 'react';
 
 import "../content/content.style.css";
 
-export const Content = ({picture, pictureText, pictureStyle, picturePos, header, text, handleChange}) => (
+export const Content = ({picture, pictureText, pictureStyle, picturePos, header, headerPos, text, handleChange}) => (
     <div className="content-box">
         {(typeof header)==="string" &&
-            <h2 className="header-text">{header}</h2>
+            <h2 className={"header-text "+headerPos}>{header}</h2>
         }
         
         

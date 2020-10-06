@@ -15,12 +15,13 @@ export const Home=({props, handleChange})=>{
         pictureStyle="profilePicture"
         picturePos="left"
         header="Dylan Docherty"
+        headerPos="left"
         text="
         I am a computer scientist and all around tech enthusiast.  
         I have a degree in Computer Science from the University of Windsor.  
         I enjoy learning new technologies and exploring things I don't understand.  
         When I code I strive to write efficient, maintainable and readable code.
-        I love solving puzzles.
+        I love solving puzzles and to me programming is one big puzzle.
         "/>   
         <Content id="about-me"
         picture="https://github.com/DylanDocherty/all-about-dylan/blob/master/src/resources/selfie.png?raw=true"
@@ -28,8 +29,10 @@ export const Home=({props, handleChange})=>{
         pictureStyle="picture"
         picturePos="right"
         
-        text="During my free time I like to hangout with friends, play video games, board games, and fish.  Some of my favourite games include Outer Wilds, Destiny 2, Halo and Super Smash Bros.
-        I also enjoy driving my car, and keeping it in mint condition."
+        text="
+        During my free time I like to hangout with friends, play video games, board games, and go fishing.
+          Some of my favourite video games include Outer Wilds, Destiny 2, Halo and Super Smash Bros. 
+           I also love going for cruises in my car."
         />
         </div>
       </div>

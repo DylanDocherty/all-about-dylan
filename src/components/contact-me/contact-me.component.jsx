@@ -6,7 +6,11 @@ export const ContactMe = ({props, handleChange}) => (
     <div id="main-content">
         <div id="contacts">
             <div id="form-box">
-                <form action="https://formkeep.com/f/139f3fee75e7"
+            
+            {/* https://formkeep.com/f/139f3fee75e7 */}
+            
+            {/* mailto:dylandocherty98@gmail.com */}
+                <form action="https://mailthis.to/dylandocherty98@gmail.com"
                     acceptCharset="UTF-8"
                     encType="multipart/form-data"
                     method="POST">

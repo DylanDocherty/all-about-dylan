@@ -24,33 +24,31 @@
 }
 
 #moving-background{
+  bottom: 100vh;
   width: 100vw;
-  height: 101vh;
+  height: 100vh;
   margin-top: 1vh;
-  animation: slide 10s linear infinite;
+  animation: fadeInDown 10s linear infinite;
   color: green;
   position: absolute;
   overflow: hidden;
-
+  padding-bottom: 1.25vh;
 } 
 #moving-background-2{
-  top: -100vh;
+  bottom: 100vh;
   width: 100vw;
-  height: 101vh;
-  animation: slide 10s linear infinite;
+  height: 100vh;
+  animation: fadeInDown 10s 2s linear infinite;
   color: green;
   position: absolute;
   overflow: hidden;
-  
+  padding-bottom: 1.25vh;
 }
-
-@keyframes slide{
-  0%{
-    transform: translate3d(0, 0, 0);
-  }
-  100%{
-    transform: translate3d(0, 100vh, 0);
-  }
+@keyframes fadeInDown {
+  0%   { -webkit-transform: translateY(0vh); }
+  50% { -webkit-transform: translateY(200vh); }
+  50.1%{ -webkit-transform: translateY(0vh); }
+  100% { -webkit-transform: translateY(200vh); }
 }
 
 #main-content{
