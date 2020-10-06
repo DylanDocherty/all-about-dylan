@@ -28,21 +28,21 @@
   width: 100vw;
   height: 100vh;
   margin-top: 1vh;
-  animation: fadeInDown 10s linear infinite;
+  animation: fadeInDown 40s linear infinite;
   color: green;
   position: absolute;
   overflow: hidden;
-  padding-bottom: 1.25vh;
+  padding-bottom: 2.25vh;
 } 
 #moving-background-2{
   bottom: 100vh;
   width: 100vw;
   height: 100vh;
-  animation: fadeInDown 10s 2s linear infinite;
+  animation: fadeInDown 40s 10s linear infinite;
   color: green;
   position: absolute;
   overflow: hidden;
-  padding-bottom: 1.25vh;
+  padding-bottom: 2.25vh;
 }
 @keyframes fadeInDown {
   0%   { -webkit-transform: translateY(0vh); }
