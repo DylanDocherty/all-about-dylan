@@ -13,37 +13,28 @@
   background-repeat:repeat;
 }
 
-#background-container{
+#background{
   overflow: hidden;
   width: 100vw;
   height: 100vh;
-  z-index: -1;
+  /* z-index: -1; */
   position: fixed;
+  /* background-color: black; */
+  /* background: 
+  linear-gradient(-45deg, black 25%, transparent 25%) 5vw 5vh,
+  linear-gradient(45deg, black 25%, transparent 25%) 5vw 5vh,
+  linear-gradient(135deg, black 25%, transparent 25%),
+  linear-gradient(225deg, black 25%, transparent 25%);
+  background-size: 5vw 5vh;
+  background-color: green; */
+
+  background: 
+  linear-gradient(45deg, green -50%, transparent 100%) 1vw 1vw;
+  background-size: 5vw 5vw;
   background-color: black;
 
 }
 
-#moving-background{
-  bottom: 100vh;
-  width: 100vw;
-  height: 100vh;
-  margin-top: 1vh;
-  animation: fadeInDown 40s linear infinite;
-  color: green;
-  position: absolute;
-  overflow: hidden;
-  padding-bottom: 2.25vh;
-} 
-#moving-background-2{
-  bottom: 100vh;
-  width: 100vw;
-  height: 100vh;
-  animation: fadeInDown 40s 10s linear infinite;
-  color: green;
-  position: absolute;
-  overflow: hidden;
-  padding-bottom: 2.25vh;
-}
 @keyframes fadeInDown {
   0%   { -webkit-transform: translateY(0vh); }
   50% { -webkit-transform: translateY(200vh); }
